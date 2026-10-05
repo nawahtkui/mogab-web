@@ -15,7 +15,7 @@ function getBuilderToken(env: Record<string, string>) {
 }
 
 export default defineConfig(({ mode }) => {
-  const repoRoot = import.meta.dirname + '/..'
+  const repoRoot = import.meta.dirname
   const env = loadEnv(mode, repoRoot, '')
   const token = getBuilderToken(env)
 
