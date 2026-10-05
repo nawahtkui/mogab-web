@@ -1,14 +1,14 @@
 import {
   MOGABCanvasAdapter
-} from '../../../src/canvas/canvas.adapter'
+} from './canvas.adapter'
 
 import {
   MOGABCanvasController
-} from '../../../src/canvas/canvas.controller'
+} from './canvas.controller'
 
 import {
   MOGABDOMCanvas
-} from '../../../src/canvas/dom.canvas'
+} from './dom.canvas'
 
 export type MOGABCanvasBridgeConfig = {
   root: HTMLElement
